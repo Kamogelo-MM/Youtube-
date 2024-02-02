@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", "san-serif";
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 58, 91);
+}
+img {
+  cursor: pointer;
+}
+.flex-div {
+  display: flex;
+  align-items: center;
+}
+nav {
+  padding: 10px 2%;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.nav-right img {
+  width: 25px;
+  margin-right: 25px;
+}
+.nav-right .user-icon {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 0;
+}
+.nav-left .menu-icon {
+  width: 22px;
+  margin-right: 25px;
+}
+.nav-left .logo {
+  width: 130px;
+}
+.nav-middle .mic-icon {
+  width: 16px;
+}
+.nav-middle .searchBox {
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+.nav-middle .searchBox input {
+  width: 400px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+.nav-middle .searchBox img {
+  width: 15px;
+}
+
+/*----sidebar---*/
+
+.side-Bar {
+  background: #ffffff;
+  width: 15%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  padding-left: 2%;
+  padding-top: 80px;
+}
+.shortcut-links a img {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.shortcut-links a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+.shortcut-links a:first-child {
+  color: rgb(77, 160, 255);
+}
+.side-Bar hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  width: 85%;
+}
